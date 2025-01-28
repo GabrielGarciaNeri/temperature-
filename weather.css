@@ -27,3 +27,15 @@ header h1{
     border-radius: 30px;
     cursor: pointer;
 }
+.results{
+
+    margin-right: 35%;
+    margin-left: 65%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    border-radius: 30px;
+    width: 20%;
+    margin-top: -40px;
+}
