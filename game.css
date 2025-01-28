@@ -1,0 +1,27 @@
+body{
+    font-family: arial;
+    text-align: center;
+}
+
+.game-container{
+    position: relative;
+    width: 400px;
+    height: 100px;
+    background-color: #dedede;
+    margin:20px auto;
+    border:1px solid black;
+}
+
+#character{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    top:25px;
+    left: 175px; /* positioning at the middle*/
+}
+
+button{
+    padding:20px;
+    cursor: pointer;
+}

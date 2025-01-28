@@ -1,0 +1,17 @@
+let position = 175
+let charcater = document.getElementById("character")
+
+function moveleft(){
+    if(position>0){
+        position -=25
+        charcater.style.left = position + "px"
+    } 
+    console.log(position)
+}
+
+function moveright(){
+    if(position<350){
+        position +=25
+        charcater.style.left = position + "px"
+    }
+}
