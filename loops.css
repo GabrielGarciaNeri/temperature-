@@ -1,0 +1,10 @@
+#studentlist{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    column-gap: 18px;
+    row-gap: 10px;
+}
+.student{
+    border: 1px brown solid;
+    background-color: lightblue;
+}
