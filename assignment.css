@@ -1,0 +1,12 @@
+.fahrenheit{
+    color: brown;
+}
+.celsius{
+    color: blue;
+}
+#results{
+    display: grid;
+    grid-template-columns: repeat(2,2fr);
+    column-gap: 30px;
+    row-gap: 10px;
+}
